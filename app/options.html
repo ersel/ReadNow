@@ -10,7 +10,16 @@
     <!-- endbuild -->
   </head>
   <body>
-    <h1>'Allo, 'Allo Option!</h1>
+    Which bookmark would you like to be opened in a new tab?<br/><br/>
+    <select id="order">
+     <option value="1">last added</option>
+     <option value="2">first added</option>
+     <option value="3">random</option>
+    </select>
+    <br>
+    <br>
+    <div id="status"></div>
+    <button id="save">Save</button>
 
     <!-- build:js scripts/options-vendor.js -->
     <!-- bower:js -->
