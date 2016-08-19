@@ -1,10 +1,11 @@
 {
-  "name": "__MSG_appName__",
-  "version": "0.0.1",
+  "name": "ReadNow: Open Bookmarks From Queue",
+  "version": "0.0.3",
   "manifest_version": 2,
-  "description": "__MSG_appDescription__",
+  "description": "Opens bookmarks added by ReadLater app in a new tab.",
   "icons": {
     "16": "images/icon-16.png",
+    "96": "images/icon-96.png",
     "128": "images/icon-128.png"
   },
   "default_locale": "en",
